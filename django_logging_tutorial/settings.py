@@ -135,7 +135,7 @@ LOGGING = {
         'file': {
             'level': 'WARNING',
             'class': 'logging.FileHandler',
-            'filename': '/home/saif/django-logging-tutorial/warning.log',
+            'filename': BASE_DIR / 'warning.log',
         },
     },
     # A logger for WARNING which has a handler called 'file'. A logger can have multiple handler
